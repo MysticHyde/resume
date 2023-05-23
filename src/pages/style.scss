@@ -98,7 +98,7 @@ $border-color_3: #e8e8e8;
 }
 
 .logo {
-  background-image: url(../Assets/logor.png);
+  background-image: url(../assets/logor.png);
   background-size: contain;
   background-repeat: no-repeat;
   width: 50px;
@@ -322,13 +322,19 @@ $border-color_3: #e8e8e8;
   font-weight: 600 !important;
   letter-spacing: 1px !important;
 }
+.infostext {
+  font-size: 1.5em !important;
+  color: azure !important;
+  font-weight: 600 !important;
+  letter-spacing: 1px !important;
+}
 
 .imagedeveloper {
   position: relative;
   margin-top: 50px;
   max-width: 550px;
   height: 400px;
-  background-image: url(../Assets/cyril.jpg);
+  background-image: url(../assets/cyril.jpg);
   background-size: cover;
   background-position: center;
   filter: grayscale(100%);
@@ -402,6 +408,10 @@ $border-color_3: #e8e8e8;
 .project-section {
   position: relative !important;
   padding-top: 20px !important;
+
+  // h2 {
+  //   color: darkcyan;
+  // }
 }
 
 .project-card {
@@ -415,7 +425,7 @@ $border-color_3: #e8e8e8;
     border-radius: 0px;
     margin: 15px;
 
-    &::before,
+    // &::before,
     &::after {
       position: absolute;
       content: '';
@@ -424,12 +434,12 @@ $border-color_3: #e8e8e8;
       border: 2px solid darkcyan;
     }
 
-    &::before {
-      left: -5px;
-      top: -5px;
-      border-bottom: none;
-      border-right: none;
-    }
+    // &::before {
+    //   left: -5px;
+    //   top: -5px;
+    //   border-bottom: none;
+    //   border-right: none;
+    // }
 
     &::after {
       right: -5px;
@@ -665,6 +675,9 @@ $border-color_3: #e8e8e8;
     padding-top: 25px;
     font-size: 2em !important;
   }
+  // .infostext {
+  //   font-size: 2em !important;
+  // }
 
   .nametext {
     font-size: 2.4em !important;
