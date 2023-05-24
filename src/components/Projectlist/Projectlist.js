@@ -86,7 +86,7 @@ function Projectlist() {
             <Col md={4} className="project-card">
               <ProjectCard
                 imgPath={kindll}
-                title="Kasa"
+                title="Kindll"
                 description="Projet personnel qui est en cours de création. Il s'agit d'un réseau social ayant pour but de mettre en avant les rencontres entre cercles d'amis."
                 ghLink="http://kindll.com/"
               />

@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import { useEffect, useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Preloader from '../src/components/Pre'
@@ -12,7 +12,7 @@ function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       upadateLoad(false);
-    }, 1200);
+    }, 8000);
 
     return () => clearTimeout(timer);
   }, []);
@@ -20,7 +20,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Preloader load={load} />
+        <Preloader load={load}/>
         <div className="App" id={load ? "no-scroll" : "scroll"}>
           <Routes>
             <Route path='/' element={<Home />}></Route>

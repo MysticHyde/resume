@@ -49,7 +49,7 @@ function Home() {
           <Col md={7} className='order-md-1' >
             <h1 className='headtext'>Bouxin Cyril  </h1>
             <h2 className='nametext'>Développeur web junior</h2>
-            <p>Tout droit diplômé de la formation <strong>Développeur Web</strong> proposé par OpenClassRooms suite à une année d'alternance,
+            <p>Tout droit diplômé de la formation <strong>Développeur Web</strong> proposée par OpenClassRooms suite à une année d'alternance,
               je souhaite désormais mettre en oeuvre mes compétences au bénéfice d'une entreprise.</p>
             <div className='infos'>
               <button className='infos-link' onClick={(e) => {
